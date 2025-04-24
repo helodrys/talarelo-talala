@@ -1,10 +1,7 @@
-import {Image, Text, View} from "react-native";
-import {icons} from "@/constants/icons";
+import { Redirect } from 'expo-router';
 
 export default function Index() {
-  return (
-    <View className="flex-1 justify-center items-center">
-      <Image source={icons.welcome} />
-    </View>
-  )
+    const isLoggedIn = false; // 👈 hardcoded for testing
+
+    return <Redirect href={isLoggedIn ? '/(tabs)/home' : '/welcome'} />;
 }

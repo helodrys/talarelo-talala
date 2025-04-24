@@ -5,8 +5,11 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
+      fontFamily: {
+        kanit:
+      },
       colors: {
-        primary: '#66eb6b'
+        primary: '#A52424'
       }
     },
   },
