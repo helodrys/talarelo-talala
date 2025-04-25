@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import {Image, Text, View} from 'react-native'
+import {images} from "@/constants/images";
 
-export default class home extends Component {
-  render() {
+const Home = () =>  {
     return (
-      <View>
-        <Text> textInComponent </Text>
+      <View className="w-full h-full flex-1">
+          <Image source={images.header} className="w-full h-auto" resizeMode="contain"/>
+          <Text> textInComponent </Text>
       </View>
     )
-  }
 }
+
+export default Home;
