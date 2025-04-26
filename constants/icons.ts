@@ -7,7 +7,7 @@ import green from "@/assets/icons/green.png";
 import home from "@/assets/icons/home.png";
 import market from "@/assets/icons/market.png";
 import project from "@/assets/icons/project.png";
-
+import bg_welcome from "@/assets/icons/bg_welcome.png";
 
 export const icons = {
     go_button,
@@ -18,5 +18,6 @@ export const icons = {
     green,
     home,
     market,
-    project
+    project,
+    bg_welcome
 }
