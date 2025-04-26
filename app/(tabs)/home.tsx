@@ -1,6 +1,7 @@
-import { View, ScrollView, Image, Text } from 'react-native'
+import {View, ScrollView, Image, Text, FlatList} from 'react-native'
 import { SafeAreaView } from "react-native-safe-area-context";
 import {images} from "@/constants/images";
+import Card from "@/component/Card";
 
 const Home = () =>  {
     return (
@@ -11,6 +12,25 @@ const Home = () =>  {
                     source={images.header}
                     className="w-full h-auto"
                     resizeMode="contain"
+                />
+                <FlatList
+                    data={}
+                    renderItem={({item}) => (
+                        <Card
+                            {... item}
+                        />
+                    )}
+                    keyExtractor={(item) => item.id.toString()}
+                    numColumns={3}
+                    columnWrapperStyle={{
+                        justifyContent: 'flex-start',
+                        gap: 20,
+                        paddingRight: 5,
+                        marginBottom: 10
+                    }}
+
+                    className="mt-2 pb-32"
+                    scrollEnabled={false}
                 />
                 <Text className="text-black text-base">
                     textInComponent

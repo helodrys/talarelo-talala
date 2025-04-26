@@ -8,7 +8,7 @@ const TabIcon = ({focused, icon, title}: any   ) => {
     if (focused) {
         return (
             <View className="bg-primary flex flex-row w-full flex-1 min-w-[112px] min-h-16
-                                                mt-4 justify-center items-center rounded-full overflow-hidden">
+                                                mt-5 justify-center items-center rounded-full overflow-hidden">
                 <Image source={icon} tintColor="#FFFFFF" className="size-3"/>
                 <Text className="text-white font-semibold ml-2">{title}</Text>
             </View>
@@ -16,7 +16,7 @@ const TabIcon = ({focused, icon, title}: any   ) => {
     }
 
     return (
-        <View className="size-full justify-center items-center rounded-full mt-4">
+        <View className="size-full justify-center items-center rounded-full mt-5">
             <Image source={icon} tintColor="#A52424" className="size-5"/>
         </View>
     )
