@@ -1,6 +1,9 @@
 // data/data.json
 [
-  { "id": "1", "title": "Item One", "color": "" },
-  { "id": "2", "title": "Item Two" },
-  { "id": "3", "title": "Item Three" }
+  { "id": "1", "title": "รายงานผลผลิต", "color": "#A9D0AA" },
+  { "id": "2", "title": "รายงานการปล่อยน้ำ", "color": "#A9C8D0" },
+  { "id": "3", "title": "รายงานการใช้ปุ๋ย", "color": "#CCD0A9" },
+  { "id": "4", "title": "แผนพัฒนา", "color": "#D0A9CB" },
+  { "id": "5", "title": "สูตรปุ๋ย", "color": "#D0B8A9" },
+  { "id": "6", "title": "ปรับแผนโครงการ", "color": "#ADA9D0" }
 ]
