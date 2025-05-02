@@ -1,0 +1,6 @@
+// data/data.json
+[
+  { "id": "1", "title": "Item One", "color": "" },
+  { "id": "2", "title": "Item Two" },
+  { "id": "3", "title": "Item Three" }
+]
