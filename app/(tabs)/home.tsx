@@ -2,6 +2,7 @@ import {View, ScrollView, Image, Text, FlatList} from 'react-native'
 import { SafeAreaView } from "react-native-safe-area-context";
 import {images} from "@/constants/images";
 import Card from "@/component/Card";
+import DATA from "@/data/data.json";
 
 const Home = () =>  {
     return (
@@ -14,7 +15,7 @@ const Home = () =>  {
                     resizeMode="contain"
                 />
                 <FlatList
-                    data={}
+                    data={DATA}
                     renderItem={({item}) => (
                         <Card
                             {... item}
