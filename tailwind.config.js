@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#66eb6b'
+        primary: '#66eb6b', //Primary Green
+        lighter_green: '#4CAF501F', //For input box
+        darker_green: '#4CAF50' //for confirm button // should have use light {} for green
       }
     },
   },
