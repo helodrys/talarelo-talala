@@ -1,7 +1,8 @@
 import { View, Text, TextInput, Pressable, ScrollView } from 'react-native';
 import { useState } from 'react';
+import {router} from "expo-router";
 
-export default function Project() {
+export default function Index() {
     const [name, setName] = useState('');
     const [idCard, setIdCard] = useState('');
     const [phone, setPhone] = useState('');
@@ -95,7 +96,8 @@ export default function Project() {
 
                 {/* Buttons */}
                 <View className="flex-row justify-around mt-6 mx-4">
-                    <Pressable className="bg-green-500 flex-1 mr-2 py-3 rounded-full items-center">
+                    <Pressable className="bg-green-500 flex-1 mr-2 py-3 rounded-full items-center "
+                               onPress={() => router.push('/project/page2')}>
                         <Text className="text-white font-semibold">ยืนยันข้อมูล</Text>
                     </Pressable>
                     <Pressable className="bg-red-500 flex-1 ml-2 py-3 rounded-full items-center">

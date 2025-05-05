@@ -14,25 +14,25 @@ const Home = () =>  {
                     className="w-full h-auto"
                     resizeMode="contain"
                 />
-                <FlatList
-                    data={DATA}
-                    renderItem={({item}) => (
-                        <Card
-                            {... item}
-                        />
-                    )}
-                    keyExtractor={(item) => item.id.toString()}
-                    numColumns={3}
-                    columnWrapperStyle={{
-                        justifyContent: 'flex-start',
-                        gap: 20,
-                        paddingRight: 5,
-                        marginBottom: 10
-                    }}
+                {/*<FlatList*/}
+                {/*    data={DATA}*/}
+                {/*    renderItem={({item}) => (*/}
+                {/*        <Card*/}
+                {/*            {... item}*/}
+                {/*        />*/}
+                {/*    )}*/}
+                {/*    keyExtractor={(item) => item.id.toString()}*/}
+                {/*    numColumns={3}*/}
+                {/*    columnWrapperStyle={{*/}
+                {/*        justifyContent: 'flex-start',*/}
+                {/*        gap: 20,*/}
+                {/*        paddingRight: 5,*/}
+                {/*        marginBottom: 10*/}
+                {/*    }}*/}
 
-                    className="mt-2 pb-32"
-                    scrollEnabled={false}
-                />
+                {/*    className="mt-2 pb-32"*/}
+                {/*    scrollEnabled={false}*/}
+                {/*/>*/}
                 <Text className="text-black text-base">
                     textInComponent
                 </Text>
