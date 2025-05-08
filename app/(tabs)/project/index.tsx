@@ -19,13 +19,13 @@ export default function Index() {
                     <Text className="text-lg font-bold text-center text-black">ดำเนินโครงการโดย</Text>
                     <View className="flex-row justify-around mt-3">
                         <Pressable className="bg-white px-4 py-2 rounded-full">
-                            <Text>👩‍🌾 เกษตรกร</Text>
+                            <Text>👩‍🌾 เกษตรกร </Text>
                         </Pressable>
                         <Pressable className="bg-white px-4 py-2 rounded-full">
-                            <Text>👨‍🌾 กลุ่มเกษตรกร</Text>
+                            <Text>👨‍🌾 กลุ่มเกษตรกร </Text>
                         </Pressable>
                         <Pressable className="bg-white px-4 py-2 rounded-full">
-                            <Text>🏪 สหกรณ์</Text>
+                            <Text>🏪 สหกรณ์ </Text>
                         </Pressable>
                     </View>
                 </View>
@@ -95,7 +95,7 @@ export default function Index() {
                 </View>
 
                 {/* Buttons */}
-                <View className="flex-row justify-around mt-6 mx-4">
+                <View className="ml-10 mr-10 flex-row justify-around mt-6 mx-4">
                     <Pressable className="bg-green-500 flex-1 mr-2 py-3 rounded-full items-center "
                                onPress={() => router.push('/project/page2')}>
                         <Text className="text-white font-semibold">ยืนยันข้อมูล</Text>

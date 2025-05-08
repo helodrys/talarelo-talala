@@ -58,7 +58,7 @@ export default function UploadScreen() {
             </View>
 
             {/* Action Buttons */}
-            <View className="flex-row justify-between mt-8 mb-24">
+            <View className="ml-5 mr-5 flex-row justify-between mt-8 mb-24">
                 <Pressable
                     className="bg-green-500 flex-1 mr-2 py-4 rounded-full items-center"
                     onPress={() => router.push('/project/loading')}

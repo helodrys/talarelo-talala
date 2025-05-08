@@ -8,15 +8,15 @@ export default function Page4() {
             {/* Header image at top */}
             <ImageBackground
                 source={images.header}
-                className="w-full h-64"
+                className="w-full h-80"
                 resizeMode="cover"
             />
 
             {/* About image starts slightly overlapping the bottom of the header */}
-            <View className="-mt-40">
+            <View className="-mt-48">
                 <Image
                     source={images.about}
-                    className="w-full h-[850px]"
+                    className="w-full h-[960px]"
                     resizeMode="cover"
                 />
             </View>

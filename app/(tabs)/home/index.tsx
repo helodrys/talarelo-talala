@@ -10,19 +10,17 @@ export default function Page3() {
             {/* Header image at top */}
             <ImageBackground
                 source={images.header}
-                className="w-full h-64"
+                className="w-full h-80"
                 resizeMode="cover"
             />
 
             {/* About image starts slightly overlapping the bottom of the header */}
-            <View className="-mt-40">
-                <Pressable onPress={() => router.push('/home/errs')}>
+            <View className="-mt-48">
                     <Image
                         source={images.mainmenu_frame}
-                        className="w-full h-[600px]"
+                        className="w-full h-[700px]"
                         resizeMode="cover"
                     />
-                </Pressable>
             </View>
         </ScrollView>
     );
