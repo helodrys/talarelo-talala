@@ -16,7 +16,7 @@ export default function Page4() {
             <View className="-mt-48">
                 <Image
                     source={images.about}
-                    className="w-full h-[960px]"
+                    className="w-full h-[980px]"
                     resizeMode="cover"
                 />
             </View>
