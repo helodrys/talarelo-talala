@@ -15,7 +15,7 @@ export default function Welcome2() {
                     ลดระยะเวลาที่จะการเริ่มดำเนินผลและเก็บข้อมูล</Text>
 
                 <View className="w-full items-center mt-96">
-                    <Pressable onPress={() => router.push("/(tabs)/home")} className="mx-auto">
+                    <Pressable onPress={() => router.push("/(tabs)/project")} className="mx-auto">
                         <Image source={icons.go_button} />
                     </Pressable>
                 </View>
